@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    /* Color de fondo suave */
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    width: 100%;
+    background-color: #00bcd4;
+    /* Color atractivo */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /* Sombra */
+}
+
+header img.logo {
+    height: 70px;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background: white;
+    color: #00bcd4;
+    border-radius: 5px;
+    /* Bordes redondeados en hover */
+}
+
+.main-content {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.mensaje h1 {
+    color: #00bcd4;
+    margin-bottom: 10px;
+}
+
+.mensaje p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.half img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    /* Bordes redondeados */
+}
+
+.descripcionPeluditos {
+    background: #ffffff;
+    /* Fondo blanco */
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Sombra */
+}
+
+.descripcionPeluditos h2,
+.descripcionPeluditos h3 {
+    color: #00bcd4;
+    /* Color para títulos */
+}
+
+.servicios {
+    margin: 40px 0;
+}
+
+.servicios h2 {
+    color: #00bcd4;
+    margin-bottom: 20px;
+}
+
+.servicios ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* Acomodar en varias filas */
+    list-style: none;
+}
+
+.servicios li {
+    background: #00bcd4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    flex: 1 1 200px;
+    /* Flexibilidad */
+    transition: transform 0.3s;
+}
+
+.servicios li:hover {
+    transform: translateY(-5px);
+    /* Efecto al pasar el mouse */
+}
+
+.servicios li img {
+    max-width: 80%;
+    /* Imagen responsiva */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    /* Espacio encima del pie */
+}
